@@ -1,0 +1,18 @@
+# ninja log v5
+0	36	1760714947106748211	libft_tester.p/leak.c.o	f075c16443b6596a
+0	261	1760714947302750538	libft_tester.p/part2.c	7b8f0e07d56775a1
+0	261	1760714947302750538	libft_tester.p/main.c	7b8f0e07d56775a1
+0	261	1760714947302750538	libft_tester.p/SupraTest.c	7b8f0e07d56775a1
+0	261	1760714947302750538	libft_tester.p/Loader.c	7b8f0e07d56775a1
+0	261	1760714947302750538	libft_tester.p/SupraLeak.c	7b8f0e07d56775a1
+0	261	1760714947302750538	libft_tester.p/part1.c	7b8f0e07d56775a1
+0	261	1760714947302750538	libft_tester.p/finder_project.c	7b8f0e07d56775a1
+262	360	1760714947430752058	libft_tester.p/meson-generated_SupraLeak.c.o	e626817b59c3b1bd
+262	390	1760714947462752437	libft_tester.p/meson-generated_Loader.c.o	568e7e86878253c5
+262	406	1760714947478752627	libft_tester.p/meson-generated_SupraTest.c.o	58ad3bcac7219a93
+262	471	1760714947542753387	libft_tester.p/meson-generated_finder_project.c.o	a56caf4de87c8e66
+262	499	1760714947570753720	libft_tester.p/meson-generated_main.c.o	3e46c785e30eba47
+261	635	1760714947706755335	libft_tester.p/meson-generated_part2.c.o	f0c2e325a763a03
+262	743	1760714947814756617	libft_tester.p/meson-generated_part1.c.o	a9b642abded09319
+743	784	1760714947854757092	libft_tester	497600c4e3e34adb
+784	947	0	meson-internal__install	c25fde4fae743b05

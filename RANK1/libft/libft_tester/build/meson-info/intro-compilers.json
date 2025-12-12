@@ -1,0 +1,74 @@
+{
+  "host": {
+    "c": {
+      "id": "clang",
+      "exelist": [
+        "cc"
+      ],
+      "linker_exelist": [
+        "cc"
+      ],
+      "file_suffixes": [
+        "c"
+      ],
+      "default_suffix": "c",
+      "version": "12.0.1-19ubuntu3",
+      "full_version": "Ubuntu clang version 12.0.1-19ubuntu3",
+      "linker_id": "ld.bfd"
+    },
+    "vala": {
+      "id": "valac",
+      "exelist": [
+        "valac"
+      ],
+      "linker_exelist": [
+        "valac"
+      ],
+      "file_suffixes": [
+        "vala",
+        "vapi",
+        "gs"
+      ],
+      "default_suffix": "vala",
+      "version": "0.56.0",
+      "full_version": null,
+      "linker_id": "valac"
+    }
+  },
+  "build": {
+    "c": {
+      "id": "clang",
+      "exelist": [
+        "cc"
+      ],
+      "linker_exelist": [
+        "cc"
+      ],
+      "file_suffixes": [
+        "c"
+      ],
+      "default_suffix": "c",
+      "version": "12.0.1-19ubuntu3",
+      "full_version": "Ubuntu clang version 12.0.1-19ubuntu3",
+      "linker_id": "ld.bfd"
+    },
+    "vala": {
+      "id": "valac",
+      "exelist": [
+        "valac"
+      ],
+      "linker_exelist": [
+        "valac"
+      ],
+      "file_suffixes": [
+        "vala",
+        "vapi",
+        "gs"
+      ],
+      "default_suffix": "vala",
+      "version": "0.56.0",
+      "full_version": null,
+      "linker_id": "valac"
+    }
+  }
+}

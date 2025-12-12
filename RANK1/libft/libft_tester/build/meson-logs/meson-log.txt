@@ -1,0 +1,248 @@
+Build started at 2025-10-17T17:29:06.567538
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/home/thbussir/Projects/C/Cursus/libft/libft_tester -Dbindir= -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 1.9.1
+Source dir: /home/thbussir/Projects/C/Cursus/libft/libft_tester
+Build dir: /home/thbussir/Projects/C/Cursus/libft/libft_tester/build
+Build type: native build
+Project name: libft_tester
+Project version: undefined
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+Ubuntu clang version 12.0.1-19ubuntu3
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+-----------
+Running command: -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/sanitycheckc.exe
+-----------
+Sanity check: `/home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/sanitycheckc.exe` -> 0
+C compiler for the host machine: cc (clang 12.0.1-19ubuntu3 "Ubuntu clang version 12.0.1-19ubuntu3")
+C linker for the host machine: cc ld.bfd 2.38
+-----------
+Detecting archiver via: `llvm-ar-12 --version` -> 0
+stdout:
+Ubuntu LLVM version 12.0.1
+  
+  Optimized build.
+  Default target: x86_64-pc-linux-gnu
+  Host CPU: skylake
+-----------
+-----------
+Detecting compiler via: `valac --version` -> 0
+stdout:
+Vala 0.56.0
+-----------
+Running compile:
+Working directory:  /tmp/tmp6u0djucj
+Code:
+class MesonSanityCheck : Object { }
+-----------
+Command line: `valac /tmp/tmp6u0djucj/testfile.vala -C` -> 0
+Vala compiler for the host machine: valac (valac 0.56.0)
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+Ubuntu clang version 12.0.1-19ubuntu3
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+-----------
+Running command: -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/sanitycheckc.exe
+-----------
+Sanity check: `/home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/sanitycheckc.exe` -> 0
+C compiler for the build machine: cc (clang 12.0.1-19ubuntu3 "Ubuntu clang version 12.0.1-19ubuntu3")
+C linker for the build machine: cc ld.bfd 2.38
+-----------
+Detecting archiver via: `llvm-ar-12 --version` -> 0
+stdout:
+Ubuntu LLVM version 12.0.1
+  
+  Optimized build.
+  Default target: x86_64-pc-linux-gnu
+  Host CPU: skylake
+-----------
+-----------
+Detecting compiler via: `valac --version` -> 0
+stdout:
+Vala 0.56.0
+-----------
+Using cached compile:
+Cached command line:  valac /tmp/tmp6u0djucj/testfile.vala -C 
+
+Code:
+ class MesonSanityCheck : Object { }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Vala compiler for the build machine: valac (valac 0.56.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 0.29.2
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.72.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-lglib-2.0
+-----------
+Running compile:
+Working directory:  /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmpyz4fk8t2
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmpyz4fk8t2/testfile.c -o /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmpyz4fk8t2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmp1jzzy9rh
+Code:
+
+-----------
+Command line: `cc /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmp1jzzy9rh/testfile.c -o /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmp1jzzy9rh/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/usr/bin:/usr/lib/llvm-12/bin:/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin
+libraries: =/usr/lib/llvm-12/lib/clang/12.0.1:/usr/bin/../lib/gcc/x86_64-linux-gnu/12:/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu:/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64:/lib/x86_64-linux-gnu:/lib/../lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/../lib64:/usr/lib/x86_64-linux-gnu/../../lib64:/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../..:/usr/lib/llvm-12/bin/../lib:/lib:/usr/lib
+-----------
+Run-time dependency glib-2.0 found: YES 2.72.4
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+stdout:
+2.72.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+stdout:
+-pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gio-2.0 found: YES 2.72.4
+Running compile:
+Working directory:  /tmp/tmpw5n1lw60
+Code:
+class MesonFindLibrary : Object { }
+-----------
+Command line: `valac /tmp/tmpw5n1lw60/testfile.vala -C --pkg posix` -> 0
+Library posix found: YES
+Running compile:
+Working directory:  /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmp7razgljj
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmp7razgljj/testfile.c -o /home/thbussir/Projects/C/Cursus/libft/libft_tester/build/meson-private/tmp7razgljj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -lbsd -Wl,--allow-shlib-undefined` -> 0
+Library bsd found: YES
+Build targets in project: 1
+
+libft_tester undefined
+
+  User defined options
+    bindir   : 
+    buildtype: release
+    prefix   : /home/thbussir/Projects/C/Cursus/libft/libft_tester
+
+Found ninja-1.10.1 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.

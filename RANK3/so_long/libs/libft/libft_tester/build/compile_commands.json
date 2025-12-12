@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "valac -C --pkg posix --pkg gio-2.0 --pkg glib-2.0 --color=always --directory libft_tester.p --basedir ../ --enable-experimental ../Module.vapi ../part2.vala ../main.vala ../SupraTest.vala ../Loader.vala ../SupraLeak.vala ../part1.vala ../finder_project.vala",
+    "file": "../Module.vapi",
+    "output": "libft_tester.p/part2.c"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_part2.c.o -MF libft_tester.p/meson-generated_part2.c.o.d -o libft_tester.p/meson-generated_part2.c.o -c libft_tester.p/part2.c",
+    "file": "libft_tester.p/part2.c",
+    "output": "libft_tester.p/meson-generated_part2.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_main.c.o -MF libft_tester.p/meson-generated_main.c.o.d -o libft_tester.p/meson-generated_main.c.o -c libft_tester.p/main.c",
+    "file": "libft_tester.p/main.c",
+    "output": "libft_tester.p/meson-generated_main.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_SupraTest.c.o -MF libft_tester.p/meson-generated_SupraTest.c.o.d -o libft_tester.p/meson-generated_SupraTest.c.o -c libft_tester.p/SupraTest.c",
+    "file": "libft_tester.p/SupraTest.c",
+    "output": "libft_tester.p/meson-generated_SupraTest.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_Loader.c.o -MF libft_tester.p/meson-generated_Loader.c.o.d -o libft_tester.p/meson-generated_Loader.c.o -c libft_tester.p/Loader.c",
+    "file": "libft_tester.p/Loader.c",
+    "output": "libft_tester.p/meson-generated_Loader.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_SupraLeak.c.o -MF libft_tester.p/meson-generated_SupraLeak.c.o.d -o libft_tester.p/meson-generated_SupraLeak.c.o -c libft_tester.p/SupraLeak.c",
+    "file": "libft_tester.p/SupraLeak.c",
+    "output": "libft_tester.p/meson-generated_SupraLeak.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_part1.c.o -MF libft_tester.p/meson-generated_part1.c.o.d -o libft_tester.p/meson-generated_part1.c.o -c libft_tester.p/part1.c",
+    "file": "libft_tester.p/part1.c",
+    "output": "libft_tester.p/meson-generated_part1.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/meson-generated_finder_project.c.o -MF libft_tester.p/meson-generated_finder_project.c.o.d -o libft_tester.p/meson-generated_finder_project.c.o -c libft_tester.p/finder_project.c",
+    "file": "libft_tester.p/finder_project.c",
+    "output": "libft_tester.p/meson-generated_finder_project.c.o"
+  },
+  {
+    "directory": "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build",
+    "command": "cc -Ilibft_tester.p -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -pthread -w -MD -MQ libft_tester.p/leak.c.o -MF libft_tester.p/leak.c.o.d -o libft_tester.p/leak.c.o -c ../leak.c",
+    "file": "../leak.c",
+    "output": "libft_tester.p/leak.c.o"
+  }
+]

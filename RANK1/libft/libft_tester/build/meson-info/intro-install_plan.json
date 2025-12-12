@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "/home/thbussir/Projects/C/Cursus/libft/libft_tester/build/libft_tester": {
+      "destination": "{bindir}/libft_tester",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    }
+  }
+}

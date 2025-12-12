@@ -1,0 +1,7 @@
+[options]
+prefix = /home/thbussir/Projects/C/Cursus/libft/libft_tester
+bindir = 
+buildtype = release
+
+[properties]
+
